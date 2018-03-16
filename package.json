@@ -105,7 +105,7 @@
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.7",
     "xhr": "2.4.1",
-    "mabeee": "git+ssh://git@github.com:novars-jp/mabeee-wba.git"
+    "mabeee": "git+https://a2598056b68411aeff86c9e3a687c20953100796:x-oauth-basic@github.com/novars-jp/mabeee-wba.git"
   },
   "jest": {
     "setupFiles": [
