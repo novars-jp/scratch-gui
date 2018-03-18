@@ -13,3 +13,13 @@
     flex-shrink: 0;
     margin-left: calc($space / 2);
 }
+
+.sprite-mabeee-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.mabeee-list-wrapper {
+    height: 216px;
+}
