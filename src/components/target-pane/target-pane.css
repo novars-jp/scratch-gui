@@ -22,4 +22,5 @@
 
 .mabeee-list-wrapper {
     height: 216px;
+    display: flex;
 }

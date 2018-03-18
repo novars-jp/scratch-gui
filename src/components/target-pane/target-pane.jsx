@@ -6,6 +6,7 @@ import VM from 'scratch-vm';
 import SpriteLibrary from '../../containers/sprite-library.jsx';
 import SpriteSelectorComponent from '../sprite-selector/sprite-selector.jsx';
 import StageSelector from '../../containers/stage-selector.jsx';
+import MaBeeeList from '../mabeee-list/mabeee-list.jsx';
 
 import styles from './target-pane.css';
 
@@ -45,7 +46,7 @@ const TargetPane = ({
 
         <div className={styles.spriteMabeeeWrapper}>
             <div className={styles.mabeeeListWrapper}>
-                MaBeee List Wrapper
+                <MaBeeeList />
             </div>
             <SpriteSelectorComponent
                 editingTarget={editingTarget}
