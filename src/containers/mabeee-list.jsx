@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import MaBeeeApp from 'mabeee';
 
-import { setDevices } from '../reducers/mabeee';
+import { updateDevices } from '../reducers/mabeee-devices';
 import MaBeeeListComponent from '../components/mabeee-list/mabeee-list.jsx';
 
 class MaBeeeList extends React.Component {
@@ -13,7 +13,7 @@ class MaBeeeList extends React.Component {
     }
     componentDidMount() {
         this._timerId = setInterval(() => {
-            this.props.setDevices(MaBeeeApp.getDevices());
+            this.props.updateDevices(MaBeeeApp.getDevices());
             this.forceUpdate();
         }, 100);
     }
@@ -45,10 +45,10 @@ MaBeeeList.PropTypes = {
 }
 
 const mapStateToProps = state => ({
-    devices: state.mabeee.devices
+    devices: state.mabeeeDevices
 });
 const mapDispatchToProps = dispatch => ({
-    setDevices: (devices) => dispatch(setDevices(devices))
+    updateDevices: (devices) => dispatch(updateDevices(devices))
 });
 
 export default connect(
