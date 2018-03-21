@@ -104,8 +104,7 @@
     "web-audio-test-api": "^0.5.2",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.7",
-    "xhr": "2.4.1",
-    "mabeee": "git+https://97a8f6cec5fe4bfbc2a5f927b4f92d5579a8c565:x-oauth-basic@github.com/novars-jp/mabeee-wba.git"
+    "xhr": "2.4.1"
   },
   "jest": {
     "setupFiles": [

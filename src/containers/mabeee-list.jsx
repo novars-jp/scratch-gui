@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import MaBeeeApp from 'mabeee';
+import MaBeeeApp from '../lib/mabeee';
 
 import MaBeeeListComponent from '../components/mabeee-list/mabeee-list.jsx';
 
