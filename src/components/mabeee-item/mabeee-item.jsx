@@ -14,7 +14,7 @@ const MaBeeeItem = ({ device, onDeleteClick }) => (
         <CloseButton
             className={styles.closeButton}
             size={CloseButton.SIZE_LARGE}
-            onClick={onDeleteClick} />
+            onClick={() => {onDeleteClick(device)}} />
     </Box>
 );
 
