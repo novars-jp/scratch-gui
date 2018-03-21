@@ -5,7 +5,7 @@ import Box from '../box/box.jsx';
 import CloseButton from '../close-button/close-button.jsx';
 import styles from './mabeee-item.css';
 
-const MaBeeeItem = ({ device, onDeleteButtonClick }) => (
+const MaBeeeItem = ({ device, onDeleteClick }) => (
     <Box className={styles.mabeeeItem}>
         <Box className={styles.info}>
             <p className={styles.mabeeeName}>{device.getName()}</p>
@@ -14,13 +14,13 @@ const MaBeeeItem = ({ device, onDeleteButtonClick }) => (
         <CloseButton
             className={styles.closeButton}
             size={CloseButton.SIZE_LARGE}
-            onClick={onDeleteButtonClick} />
+            onClick={onDeleteClick} />
     </Box>
 );
 
 MaBeeeItem.propTypes = {
     device: PropTypes.object.isRequired,
-    onDeleteButtonClick: PropTypes.object.isRequired
+    onDeleteClick: PropTypes.object.isRequired
 }
 
 export default MaBeeeItem;
