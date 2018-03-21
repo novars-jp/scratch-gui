@@ -1,0 +1,30 @@
+<svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>mabeeeIcon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(574 374)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -574 -374L -414 -374L -414 -214L -574 -214L -574 -374Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="mabeeeIcon" clip-path="url(#clip-0)">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="matrix(0.656896 0.753981 -0.755332 0.655343 -468.655 -341)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path1_fill" transform="matrix(0.656896 0.753981 -0.755332 0.655343 -454.02 -336.74)" fill="#FFFFFF"/>
+</g>
+<g id="Group">
+<g id="Rectangle 3">
+<use xlink:href="#path2_fill" transform="translate(-540.333 -354)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 3.2">
+<use xlink:href="#path2_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 -553 -330.074)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 5C 0 2.23858 2.23858 0 5 0L 46.2334 0C 48.9948 0 51.2334 2.23858 51.2334 5L 51.2334 94.7509C 51.2334 97.5123 48.9948 99.7509 46.2334 99.7509L 5 99.7509C 2.23858 99.7509 0 97.5123 0 94.7509L 0 5Z"/>
+<path id="path1_fill" d="M 0 0L 25.6167 0L 25.6167 10.0666L 0 10.0666L 0 0Z"/>
+<path id="path2_fill" d="M 0 0L 11.2593 0L 11.2593 38L 0 38L 0 0Z"/>
+</defs>
+</svg>

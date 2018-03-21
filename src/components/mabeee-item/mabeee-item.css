@@ -1,0 +1,53 @@
+@import "../../css/units.css";
+
+.mabeee-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.info {
+    display: flex;
+    top: 4px;
+    background-color: #7FD8FA;
+    flex-grow: 1;
+    border-radius: $space;
+    user-select: none;
+}
+
+.mabeee-name {
+    height: 24px;
+    flex-grow: 1;
+    color: #888888;
+    background-color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: $space;
+}
+
+.mabeee-power {
+    height: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    margin-right: 12px;
+    color: #ffffff;
+}
+
+.close-button {
+    height: 32px;
+    width: 32px;
+    background-color: #428dff;
+    border-style: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left: 8px;
+    outline:none;
+}

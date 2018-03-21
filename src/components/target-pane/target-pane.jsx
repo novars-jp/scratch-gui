@@ -6,6 +6,7 @@ import VM from 'scratch-vm';
 import SpriteLibrary from '../../containers/sprite-library.jsx';
 import SpriteSelectorComponent from '../sprite-selector/sprite-selector.jsx';
 import StageSelector from '../../containers/stage-selector.jsx';
+import MaBeeeList from '../../containers/mabeee-list.jsx';
 
 import styles from './target-pane.css';
 
@@ -43,25 +44,30 @@ const TargetPane = ({
         {...componentProps}
     >
 
-        <SpriteSelectorComponent
-            editingTarget={editingTarget}
-            hoveredTarget={hoveredTarget}
-            raised={raiseSprites}
-            selectedId={editingTarget}
-            sprites={sprites}
-            onChangeSpriteDirection={onChangeSpriteDirection}
-            onChangeSpriteName={onChangeSpriteName}
-            onChangeSpriteSize={onChangeSpriteSize}
-            onChangeSpriteVisibility={onChangeSpriteVisibility}
-            onChangeSpriteX={onChangeSpriteX}
-            onChangeSpriteY={onChangeSpriteY}
-            onDeleteSprite={onDeleteSprite}
-            onDuplicateSprite={onDuplicateSprite}
-            onNewSpriteClick={onNewSpriteClick}
-            onPaintSpriteClick={onPaintSpriteClick}
-            onSelectSprite={onSelectSprite}
-            onSurpriseSpriteClick={onSurpriseSpriteClick}
-        />
+        <div className={styles.spriteMabeeeWrapper}>
+            <div className={styles.mabeeeListWrapper}>
+                <MaBeeeList />
+            </div>
+            <SpriteSelectorComponent
+                editingTarget={editingTarget}
+                hoveredTarget={hoveredTarget}
+                raised={raiseSprites}
+                selectedId={editingTarget}
+                sprites={sprites}
+                onChangeSpriteDirection={onChangeSpriteDirection}
+                onChangeSpriteName={onChangeSpriteName}
+                onChangeSpriteSize={onChangeSpriteSize}
+                onChangeSpriteVisibility={onChangeSpriteVisibility}
+                onChangeSpriteX={onChangeSpriteX}
+                onChangeSpriteY={onChangeSpriteY}
+                onDeleteSprite={onDeleteSprite}
+                onDuplicateSprite={onDuplicateSprite}
+                onNewSpriteClick={onNewSpriteClick}
+                onPaintSpriteClick={onPaintSpriteClick}
+                onSelectSprite={onSelectSprite}
+                onSurpriseSpriteClick={onSurpriseSpriteClick}
+            />
+        </div>
         <div className={styles.stageSelectorWrapper}>
             {stage.id && <StageSelector
                 assetId={
