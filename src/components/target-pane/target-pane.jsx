@@ -6,7 +6,7 @@ import VM from 'scratch-vm';
 import SpriteLibrary from '../../containers/sprite-library.jsx';
 import SpriteSelectorComponent from '../sprite-selector/sprite-selector.jsx';
 import StageSelector from '../../containers/stage-selector.jsx';
-import MaBeeeList from '../mabeee-list/mabeee-list.jsx';
+import MaBeeeList from '../../containers/mabeee-list.jsx';
 
 import styles from './target-pane.css';
 
