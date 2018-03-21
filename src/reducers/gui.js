@@ -13,7 +13,6 @@ import toolboxReducer from './toolbox';
 import vmReducer from './vm';
 import stageSizeReducer from './stage-size';
 import {ScratchPaintReducer} from 'scratch-paint';
-import mabeeeDevicesReducer from './mabeee-devices';
 
 export default combineReducers({
     blockDrag: blockDragReducer,
@@ -29,6 +28,5 @@ export default combineReducers({
     targets: targetReducer,
     toolbox: toolboxReducer,
     vm: vmReducer,
-    scratchPaint: ScratchPaintReducer,
-    mabeeeDevices: mabeeeDevicesReducer
+    scratchPaint: ScratchPaintReducer
 });
