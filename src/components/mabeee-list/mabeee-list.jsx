@@ -16,6 +16,7 @@ const MaBeeeList = ({ devices, onAddClick, onDeleteClick }) => (
             <Box className={styles.deviceList}>
                 {devices.map(device => (
                     <MaBeeeItem
+                        key={device.getId()}
                         device={device}
                         onDeleteClick={onDeleteClick}/>
                 ))}
