@@ -20,7 +20,7 @@ const MaBeeeItem = ({ device, onDeleteClick }) => (
 
 MaBeeeItem.propTypes = {
     device: PropTypes.object.isRequired,
-    onDeleteClick: PropTypes.object.isRequired
+    onDeleteClick: PropTypes.func.isRequired
 }
 
 export default MaBeeeItem;
